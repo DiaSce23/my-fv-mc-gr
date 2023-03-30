@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    ;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1);
+}
+
+span {
+    font-style: italic;
+}
+
+.list-conteiner {
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 20px;
+
+}
+
+.list-conteiner>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-conteiner {
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+/* video {
+    width: 50px;
+} */
